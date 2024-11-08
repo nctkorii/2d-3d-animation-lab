@@ -1,0 +1,87 @@
+#Rotate{
+    background-color: aquamarine;
+    height: 100px;
+    width: 200px;
+    transition: transform 300ms ease-out;
+}
+
+#Rotate:active{
+    transform: rotate(90deg);
+}
+
+#Skew{
+    margin-top :20px;
+    background-color: rgb(255, 127, 127);
+    height: 100px;
+    width: 200px;
+    transition: transform 300ms ease-out;
+}
+
+#Skew:active{
+    transform: skew(45deg);
+}
+
+#Scale{
+    margin-top :20px;
+    background-color: rgb(140, 127, 255);
+    height: 100px;
+    width: 200px;
+    transition: transform 300ms ease-out;
+}
+
+#Scale:active{
+    transform: scale(2);
+}
+
+#Translate{
+    margin-top :20px;
+    background-color: rgb(170, 255, 0);
+    height: 100px;
+    width: 200px;
+    transition: transform 300ms ease-out;
+}
+
+#Translate:active{
+    transform: translate(200px);
+}
+
+
+#rotateX{
+    margin-top :20px;
+    background-color: rgb(255, 0, 238);
+    height: 100px;
+    width: 200px;
+    perspective: 500px;
+    transition: transform 300ms ease-out;
+}
+
+#rotateX:active{
+    transform: rotateX(60deg);
+}
+
+#rotateY{
+    margin-top :20px;
+    background-color: rgb(255, 0, 238);
+    height: 100px;
+    width: 200px;
+    perspective: 500px;
+    transition: transform 300ms ease-out;
+}
+
+#rotateY:active{
+    transform: rotateY(60deg);
+}
+
+#rotateZ{
+    margin-top :20px;
+    background-color: rgb(255, 0, 238);
+    height: 100px;
+    width: 200px;
+    perspective: 500px;
+    transition: transform 300ms ease-out;
+}
+
+#rotateZ:active{
+    transform: rotateZ(90deg);
+}
+
